@@ -15,11 +15,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: '20.240.0101 - Tugas 3',
+      title: 'CRUD',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(title: '20.240.0101 - Tugas 3'),
+      home: const MyHomePage(title: 'CRUD - SQFLite'),
     );
   }
 }
